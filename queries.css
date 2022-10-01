@@ -1,0 +1,46 @@
+@media (max-width: 30em) {
+}
+
+@media (max-width: 23.5em) {
+  body {
+    font-size: 1.3rem;
+    min-height: 100vh;
+  }
+
+  .nft {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 28rem;
+    /* margin-top: 0.8rem; */
+    height: 100vh;
+  }
+
+  .nft-name {
+    font-size: 2.3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .nft-info {
+    font-size: 1.5rem;
+  }
+
+  .nft-img {
+    height: 24rem;
+    width: 24rem;
+  }
+
+  .price {
+    display: flex;
+    align-items: center;
+  }
+
+  .price-box {
+    margin-top: 2rem;
+  }
+
+  .days-left {
+    display: flex;
+    align-items: center;
+  }
+} ;
